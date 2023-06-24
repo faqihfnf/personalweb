@@ -452,6 +452,15 @@ p {
   color: rgb(254 215 170 / var(--tw-text-opacity));
 }
 
+img {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
