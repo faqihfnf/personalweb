@@ -437,6 +437,9 @@ main {
 }
 
 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
@@ -444,10 +447,18 @@ h1 {
   color: rgb(253 230 138 / var(--tw-text-opacity));
 }
 
-p {
+h2 {
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(254 215 170 / var(--tw-text-opacity));
+}
+
+p {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
   --tw-text-opacity: 1;
   color: rgb(254 215 170 / var(--tw-text-opacity));
 }
